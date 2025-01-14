@@ -1,0 +1,23 @@
+@import url("../vendor/normalize.css");
+
+.page {
+  background-color: #f4d04e;
+}
+
+.blog-card-sample {
+  margin: 0 auto;
+}
+
+.blog-card {
+  background-color: #fff;
+
+  width: 26.6667%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution__link {
+  color: hsl(228, 45%, 44%);
+}
