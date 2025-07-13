@@ -3,6 +3,7 @@
 
 .page {
   background-color: #f4d04e;
+  padding: 219px 0;
 }
 
 .blog-card_sample {
@@ -12,8 +13,13 @@
 .blog-card {
   box-sizing: border-box;
   background-color: #fff;
-  width: 26.6667%;
+  width: 384px;
   padding: 24px;
+}
+
+.blog-card__image {
+  display: flex;
+  margin: 0 auto;
 }
 
 .blog-card__topic {
