@@ -18,10 +18,17 @@
   width: 384px;
   padding: 24px;
   color: #111111;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  border-radius: 20px;
 }
 
 .blog-card__image {
   margin: 0 auto;
+  border-radius: 10px;
 }
 
 .blog-card__content {
@@ -50,14 +57,30 @@
 
 .blog-card__title {
   margin: 0;
+  font-size: 24px;
+  font-weight: 800;
 }
 
 .blog-card__description {
   margin: 0;
+  font-size: 16px;
+  color: #6b6b6b;
 }
 
 .blog-card__author-info {
   display: flex;
+  align-items: center;
+  gap: 5.5px;
+}
+
+.blog-card__author-profile-picture {
+  width: 32px;
+  height: 32px;
+}
+
+.blog-card__author-name {
+  margin: 0;
+  font-weight: 800;
 }
 
 .attribution {
