@@ -18,6 +18,8 @@
   width: 384px;
   padding: 24px;
   color: #111111;
+  border: #111111 1px solid;
+  box-shadow: 8px 8px;
   display: flex;
   flex-direction: column;
   gap: 24px;
