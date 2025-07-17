@@ -55,6 +55,11 @@
   font-weight: 800;
 }
 
+.blog-card__title:hover {
+  color: #f4d04e;
+  cursor: pointer;
+}
+
 .blog-card__description {
   margin: 0;
   font-size: 16px;
