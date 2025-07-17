@@ -1,0 +1,10 @@
+.page {
+  background-color: #f4d04e;
+  padding: 219px 0;
+}
+
+@media (max-width: 908px) {
+  .page {
+    padding: 155px 0;
+  }
+}

@@ -1,10 +1,8 @@
 @import url("../vendor/normalize.css");
+
 @import url("../vendor/fonts.css");
 
-.page {
-  background-color: #f4d04e;
-  padding: 219px 0;
-}
+@import url("../blocks/page.css");
 
 .blog-card {
   box-sizing: border-box;
@@ -94,9 +92,6 @@
 }
 
 @media (max-width: 908px) {
-  .page {
-    padding: 155px 0;
-  }
   .blog-card {
     width: 327px;
   }
