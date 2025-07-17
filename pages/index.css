@@ -72,7 +72,7 @@
 .blog-card__author-info {
   display: flex;
   align-items: center;
-  gap: 5.5px;
+  gap: 12px;
 }
 
 .blog-card__author-profile-picture {
@@ -91,4 +91,26 @@
 }
 .attribution__link {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 908px) {
+  .page {
+    padding: 155px 0;
+  }
+  .blog-card {
+    width: 327px;
+  }
+  .blog-card__image {
+    width: 279px;
+  }
+  .blog-card__topic,
+  .blog-card__publication-date {
+    font-size: 12px;
+  }
+  .blog-card__title {
+    font-size: 20px;
+  }
+  .blog-card__description {
+    font-size: 14px;
+  }
 }
